@@ -80,7 +80,7 @@ if [ -d "$GSTACK_DIR" ]; then
   git pull origin main --quiet 2>/dev/null || log_warn "无法更新（可能离线）"
 else
   log_info "克隆 gstack 仓库..."
-  git clone https://github.com/withgstack/gstack.git "$GSTACK_DIR" --quiet
+  git clone https://github.com/reinhardliu-cloud/gstack.git "$GSTACK_DIR" --quiet
   log_success "gstack 仓库已克隆"
 fi
 
