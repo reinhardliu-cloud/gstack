@@ -1,0 +1,16 @@
+{
+  "name": "gstack",
+  "image": "mcr.microsoft.com/devcontainers/universal:2024",
+  "postCreateCommand": "bash .devcontainer/install-gstack.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot"
+      ]
+    },
+    "codespaces": {
+      "openFiles": ["README.md"]
+    }
+  },
+  "remoteUser": "codespace"
+}
