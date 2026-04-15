@@ -196,6 +196,7 @@ I open sourced how I build software. You can fork it and make it your own.
 | Doc | What it covers |
 |-----|---------------|
 | [Skill Deep Dives](docs/skills.md) | Philosophy, examples, and workflow for every skill (includes Greptile integration) |
+| [RS Setup Guide](docs/gstack-rs-setup.en.md) | RS slash aliases, Codex runtime-root requirements, and fresh-host installation patterns |
 | [Builder Ethos](ETHOS.md) | Builder philosophy: Boil the Lake, Search Before Building, three layers of knowledge |
 | [Architecture](ARCHITECTURE.md) | Design decisions and system internals |
 | [Browser Reference](BROWSER.md) | Full command reference for `/browse` |
